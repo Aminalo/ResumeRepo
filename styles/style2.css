@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  color: #9ce7ff;
+  border-bottom: 2px solid #444;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.job, .edu {
+  margin-bottom: 25px;
+}
+
+.job h3, .edu h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.year {
+  float: right;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.title {
+  font-style: italic;
+  margin: 5px 0;
+  color: #ccc;
+}
+
+.desc {
+  color: #bbb;
+  font-size: 0.95rem;
+}
+
+.skills-box {
+  margin-bottom: 40px;
+}
+
+.skill {
+  margin-bottom: 12px;
+}
+
+.skill span {
+  display: inline-block;
+  width: 120px;
+}
+
+.bar {
+  height: 10px;
+  background: #444;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.wp { width: 90%; background: #2196F3; }
+.php { width: 80%; background: #00BCD4; }
+.html { width: 93%; background: #FFC107; }
+.css { width: 82%; background: #4CAF50; }
+.mysql { width: 70%; background: #FF5722; }
+
+ul.graphics, ul.languages {
+  list-style: none;
+  padding: 0;
+}
+
+.graphics li, .languages li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.lang-dots::before {
+  content: "●●●●";
+  color: currentColor;
+  margin-left: 10px;
+}
+
+.blue { color: #03A9F4; }
+.green { color: #4CAF50; }
+.orange { color: #FFC107; }
+.red { color: #F44336; }
+.purple { color: #9C27B0; }
+.yellow { color: #FFEB3B; }
+
+.icon {
+  margin-right: 8px;
+}
