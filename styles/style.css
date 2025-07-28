@@ -217,4 +217,10 @@ h2 {
     height: auto;
     margin: 0 auto;
   }
+  .career-section{
+    order: 2;
+  }
+  .skills-section{
+    order 1
+  }
 }
