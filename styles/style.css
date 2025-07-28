@@ -9,14 +9,11 @@ body {
   color: white;
   background-color: rgb(22, 35, 35);
 }
-
 .main-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
 }
-
-
 #Amina {
   width: 150px;
   height: auto;
@@ -47,14 +44,10 @@ p {
 .section-header {
   display: flex;
   align-items: center;
-  /* background-color: rgb(99, 111, 111);  */
   padding-top: 0;
   padding-bottom: 0;
 }
 
-/* .section2{
-    background-color: rgb(99, 111, 111);
-} */
 .duration {
   margin-top: 20px;
   margin-left: auto;
@@ -84,7 +77,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 30px
-    /* justify-content: space-between; */
 }
 .career-section{
   flex: 2;
@@ -225,3 +217,4 @@ h2 {
     height: auto;
     margin: 0 auto;
   }
+}
